@@ -45,7 +45,7 @@ function editTask(event) {
   title.value = event.target.parentElement.children[0].textContent
 
   let description = document.querySelector('#description-dialog')
-  description.value = event.target.parentElement.children[0].textContent
+  description.value = event.target.parentElement.children[1].textContent
 
 }
 
